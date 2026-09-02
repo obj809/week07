@@ -197,3 +197,37 @@ cython_debug/
 .cursorindexingignore
 
 node_modules/
+
+
+# Terraform working directory
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform variable files may contain sensitive values
+*.auto.tfvars
+
+# Terraform plan files
+*.tfplan
+tfplan
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Override files
+override.tf
+
+# Local credential and working notes — never commit
+# Paths are relative to this .gitignore, which sits in wk07/week07/
+storage-connection-string.md
+section-6-values.md
+azure-portal/
+
+# Personal working notes and evidence — not part of the forked project
+WALKTHROUGH.md
+NODE20-DEPRECATION.md
+RESUME.md
+screenshots/
